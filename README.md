@@ -16,11 +16,11 @@ Thanks to abstraction, all you need to do is that define the processes with arri
 ### Program Input and Outputs
 Input:
 
-![Screenshot_2.png](..%2F..%2F..%2FDesktop%2FScreenshot_2.png)
+![input.png](.idea%2Fsrc%2Finput.png)
 
 Output:
 
-![Screenshot_3.png](..%2F..%2F..%2FDesktop%2FScreenshot_3.png)
+![output.png](.idea%2Fsrc%2Foutput.png)
 
 
 #### NOTE: Since the GC (Garbage Collector) will collect and delete all unreachable objects from the memory at the end of the program we don't need to use C commands like deallocate.
