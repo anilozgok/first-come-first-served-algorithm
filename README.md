@@ -7,7 +7,7 @@ Algorithm is expected to find waiting and turnaround time of each process.
 
 Structure of Process is defined in the  ``ProcessStruct.java`` class in the project under the ``structure`` package. Also we have a ``TimeDetails.java`` class for time details of our total processes.
 
-The FCFS algorithm is implemented on the ``FCFS.java`` class under the ``fcfc`` package.
+The FCFS algorithm is implemented on the ``FCFS.java`` class under the ``fcfs`` package.
 
 ``Printer.java`` is our helper class to print our process details.
 
@@ -23,4 +23,4 @@ Output:
 ![output.png](.idea%2Fsrc%2Foutput.png)
 
 
-#### NOTE: Since the GC (Garbage Collector) will collect and delete all unreachable objects from the memory at the end of the program we don't need to use C commands like deallocate.
+#### NOTE: Since the GC (Garbage Collector) will collect and delete all unreachable objects from the heap memory at the end of the program we don't need to use C commands like deallocate.
