@@ -14,6 +14,9 @@ public class Main {
 
         fcfs.execute();
 
+        //NOTE: GC (Garbage Collector) will collect and delete all unreachable objects from the memory at the end of the
+        // program, so we don't need to use C commands like deallocate.
+
     }
 
 }
